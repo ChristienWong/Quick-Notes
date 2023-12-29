@@ -5,8 +5,8 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/Quick-Notes"> // TODO update to your repo name
+  <BrowserRouter basename="/Quick-Notes"> 
       <App />
-    <App />
+    
   </BrowserRouter>,
 );
